@@ -1,0 +1,200 @@
+ /* ЛИЧНЫЙ КАБИНЕТ */
+ h1, h4, h2{
+    background-color: rgb(248, 249, 250);
+ }
+ *{
+    max-width: 100%;
+ }
+ .changeSmthBtn{
+    width: fit-content;
+    align-self: end;
+    border: none;
+ }
+
+ .carousel-control-next-icon{
+    background-color: grey;
+    padding: 40px;
+    border-radius: 10px;
+ }
+
+ .grey-bg-text{
+    background-color: rgba(155, 153, 153, 0.637);
+    width: fit-content;
+    margin: 0 auto;
+ }
+
+ .carousel-control-prev-icon{
+    background-color: gray;
+    padding: 40px;
+    border-radius: 10px;
+ }
+
+ .changeSmthForm{
+    width: fit-content;
+    margin: 0px auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+ }
+ .not_register_div{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px !important;
+}
+.authorization{
+    display: flex;
+    gap: 20px;
+    color: blue;
+}
+/* ЛИЧНЫЙ КАБИНЕТ */
+
+/*--------------*/
+
+/* ГЛАВНАЯ */
+#found_animals{
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.slide{
+    width: 50vw;
+}
+
+#carouselExampleCaptions{
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.cards_wrapper{
+    padding-top: 50px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.col{
+    width: 38%;
+}
+
+.news_subscribe_title{
+    padding-top: 15px;
+    font-size: 36px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.news_subscribe_form{
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.news_subscribe{
+    margin-bottom: 100px;
+}
+
+footer{
+    width: 100%;
+	height: 100px;
+    background-color: #f8f9fa;
+	position: fixed !important;
+	bottom: 0;
+	left: 0;
+}
+.footerText{
+    padding-left: 30px;
+}
+/* ГЛАВНАЯ */
+
+
+/* РЕГИСТРАЦИЯ */
+h3{
+    text-align: center;
+    margin: 50px 0;
+}
+.registration_form{
+    width: fit-content;
+    margin: 0 auto;
+}
+#sendRegFormBtn, #sendLoginFormBtn{
+    margin-right: 20px;
+}
+/* РЕГИСТРАЦИЯ */
+
+/* ЛИЧНЫЙ КАБ */
+.personalCabinetCard{
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 0 auto;
+    gap: 20px;
+    border: 0;
+}
+
+.list-group-item{
+    width: max-content;
+}
+
+.ChangeOrDeleteAdvert{
+    width: fit-content;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.ChangeOrDeleteAdvert > button{
+    border: 0;
+    background: none;
+}
+/* ЛИЧНЫЙ КАБ */
+
+.searchAdvertField{
+    width: fit-content;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.addAdvertDiv{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.userAdverts{
+    gap: 50px;
+    padding: 0 100px;
+}
+
+.card-img-top{
+    max-width: 350px;
+    margin: 0 auto;
+}
+/*КАРТОЧКИ*/
+.cardsContainer{
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: baseline;
+    margin-top: 50px;
+}
+.cardsContainer > div{
+    flex: 1;
+}
+.col{
+    width: 100%;
+}
+.userAdverts{
+    margin-bottom: 120px;
+}
+.card{
+    border: none !important;
+}
+
+.card-body{
+    width: fit-content;
+    margin: 0 auto;
+}
